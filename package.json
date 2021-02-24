@@ -1,0 +1,29 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "description": "Website for the JavaScript Discord",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start -p $PORT",
+        "heroku-postbuild": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/javascriptdiscord/website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/javascriptdiscord/website/issues"
+    },
+    "homepage": "https://github.com/javascriptdiscord/website#readme",
+    "dependencies": {
+        "antd": "^4.12.3",
+        "next": "^10.0.7",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
+}
